@@ -145,7 +145,7 @@ public static void modificarPersonaje() {
         }
     }
 
-    // Mostrar datos actuales
+    
     System.out.println("DATOS ACTUALES");
     System.out.println("Nombre: " + nombres[i]);
     System.out.println("Arma: " + armas[i]);
@@ -163,7 +163,7 @@ public static void modificarPersonaje() {
 
     System.out.println("Nivel de poder: " + niveles[i]);
 
-    // Modificar directamente
+  
     System.out.println("INGRESA NUEVOS DATOS");
 
     System.out.print("Nueva arma: ");
