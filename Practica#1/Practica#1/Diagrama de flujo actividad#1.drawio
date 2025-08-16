@@ -1,0 +1,90 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6">
+  <diagram name="Gestión de Personajes" id="0">
+    <mxGraphModel dx="2350" dy="1388" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Mostrar menú principal" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="40" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" parent="1" source="2" target="3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Ingrese una opcion:" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="40" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" parent="1" source="3" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="1. Agregar personaje\&lt;div&gt;n→ FOR validar nombre\&lt;/div&gt;&lt;div&gt;n→ Solicitar arma\&lt;/div&gt;&lt;div&gt;n→ FOR habilidades\&lt;/div&gt;&lt;div&gt;n→ Validar nivel\&lt;/div&gt;&lt;div&gt;n→ Guardar&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="200" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="2. Modificar personaje\&lt;div&gt;n→ Buscar por ID/&lt;/div&gt;&lt;div&gt;nombre\&lt;/div&gt;&lt;div&gt;n→ Mostrar datos\&lt;/div&gt;&lt;div&gt;n→ FOR habilidades\&lt;/div&gt;&lt;div&gt;n→ Validar nivel\&lt;/div&gt;&lt;div&gt;n→ Actualizar&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="330" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="3. Eliminar personaje\&lt;div&gt;n→ Validar ID\&lt;/div&gt;&lt;div&gt;n→ Confirmar\&lt;/div&gt;&lt;div&gt;n→ FOR desplazar datos\&lt;/div&gt;&lt;div&gt;n→ contador--&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="465" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="4. Ver datos\&lt;div&gt;n→ Validar ID\&lt;/div&gt;&lt;div&gt;n→ FOR mostrar habilidades&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="870" y="610" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="5. Ver listado\&lt;div&gt;n→ FOR mostrar personajes&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="710" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="6. Realizar pelea\&lt;div&gt;n→ Validar IDs\&lt;/div&gt;&lt;div&gt;n→ Mostrar enfrentamiento\&lt;/div&gt;&lt;div&gt;n→ Registrar pelea&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="790" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="7. Ver historial\&lt;div&gt;n→ FOR mostrar peleas&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1430" y="880" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="8. Datos del estudiante\&lt;div&gt;n→ Mostrar nombre, carnet, curso, sección&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1610" y="960" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="9. Salir\&lt;div&gt;n→ Terminar ciclo\&lt;/div&gt;&lt;div&gt;n→ Fin del programa&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1810" y="1050" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" parent="1" source="5" target="7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" parent="1" source="5" target="8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="150" />
+              <mxPoint x="690" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" parent="1" source="5" target="9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" parent="1" source="5" target="10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" parent="1" source="5" target="11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" parent="1" source="5" target="12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" parent="1" source="5" target="13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" parent="1" source="5" target="14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="24" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" parent="1" source="5" target="15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="Fin del programa" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="26" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" parent="1" source="15" target="25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
