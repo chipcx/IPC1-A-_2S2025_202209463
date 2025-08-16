@@ -56,6 +56,7 @@ public class GestordePersonajes {
         
     }
 
+     
 public static void agregarpersonaje() {
     Scanner sc = new Scanner(System.in);
 
